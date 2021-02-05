@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <form>
+        <label for="name">Enter name</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Enter Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label><br><br>
+        <label for="age">What's your age</label>
+        <select name="age" id="age">
+            <option value="13-20">13-20</option>
+            <option value="20-40">20-40</option>
+            <option value="50">50 or above</option>
+        </select><br><br>
+        <label for="desc">Write Short Desc</label><br><br>
+        <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Write Short Desc..."></textarea><br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
